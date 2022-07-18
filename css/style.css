@@ -1,1 +1,96 @@
+/* font start */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+/* font end */
+
+/* common tag start */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+}
+
+/* commot tag end */
+
+/* first section start */
+
+.container{
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.top-player {
+    padding-left: 33px;
+    padding-top: 14px;
+}
+
+.sec-heading {
+    color: #562EFF;
+    padding-top: ;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.player h4 {
+    padding-left: 16px;
+}
+
+.hr-rule {
+    border: 1px solid #D1D1D1;
+    margin: 30px;
+}
+
+.top-blog{
+    padding-left: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+}
+
+.blog-img img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info{
+    padding: 16px;
+}
+
+/* first section end */
+
+/* second section start */
+
+
+/* second section end */
