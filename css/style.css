@@ -37,7 +37,6 @@ main{
 
 .sec-heading {
     color: #562EFF;
-    padding-top: ;
 }
 
 .players{
@@ -165,10 +164,7 @@ main{
     .players, .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
-    main {
-        width: 100%;
-    }
-    .container{
+    main, .container {
         width: 100%;
     }
 
@@ -186,3 +182,22 @@ main{
     }
 
  }
+
+/* lablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main, .container {
+        width: 100%;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
